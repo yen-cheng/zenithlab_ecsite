@@ -1,0 +1,42 @@
+.half-nav {
+  width: 20%;
+}
+
+.half-nav__item {
+  display: inline-block;
+  width: 50%;
+  font-size: 0.7rem;
+  text-align: center;
+  text-decoration: none;
+  padding: 0.2rem;
+  /*margin-left: -1px;*/
+  border-style: none solid none solid;
+  border-width: 1px;
+  border-color: #a8a8a8;
+  border-collapse: collapse;
+}
+
+.icon {
+  display: block;
+  width: 1.3rem;
+  height: 1.3rem;
+  background-size: cover;
+  margin: 0 auto;
+  padding: 0.5rem;
+}
+
+.icon-home {
+  background-image: url(../../assets/icon/home/home.svg);
+}
+.icon-home:hover,
+.icon-home:focus {
+  background-image: url(../../assets/icon/home/home-hover.svg);
+}
+
+.icon-onsale {
+  background-image: url(../../assets/icon/onsale/onsale.svg);
+}
+.icon-onsale:hover,
+.icon-onsale:focus {
+  background-image: url(../../assets/icon/onsale/onsale-hover.svg);
+}
