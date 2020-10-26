@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 
-import './header-nav-item.style.css';
+import './header-nav-item.style.scss';
 
 export const HeaderNavItem = ({pageName,title}) => {
 

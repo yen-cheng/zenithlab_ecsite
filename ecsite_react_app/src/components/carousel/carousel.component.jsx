@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './carousel.style.css';
+import './carousel.style.scss';
 
 export const Carousel = ()=>(
     <div className="carousel-img">

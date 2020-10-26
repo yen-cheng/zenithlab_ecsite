@@ -1,7 +1,7 @@
 import React from 'react';
 
 import {HeaderNavItem} from '../header-nav-item/header-nav-item.component';
-import './header-navbar.style.css'
+import './header-navbar.style.scss'
 import logo from '../../assets/icon/rat.svg'
 
 

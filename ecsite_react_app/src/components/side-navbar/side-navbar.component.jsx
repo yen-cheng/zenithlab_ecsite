@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './side-navbar.style.css'
+import './side-navbar.style.scss'
 
 export const SideNavbar = ()=>(
     <div className="side-navbar">

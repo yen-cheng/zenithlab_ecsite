@@ -1,0 +1,25 @@
+.side-navbar {
+  width: 25%;
+  padding-right: 1rem;
+  margin-top: 0.5rem;
+  display: inline-block;
+  vertical-align: top;
+  position: sticky;
+  top: 0;
+
+  .side-navbar__item {
+    display: block;
+    padding: 0.5rem;
+    margin: 0.2rem 0.2rem 0.2rem 0;
+    color: #05c0c1;
+    font-weight: bold;
+    text-decoration: none;
+    border: 2px dotted #05c0c1;
+    border-radius: 50px;
+  }
+
+  .side-navbar__item:hover {
+    color: #ebac3e;
+    background-color: #fff4e1;
+  }
+}

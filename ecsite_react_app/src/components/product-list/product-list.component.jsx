@@ -1,7 +1,23 @@
 import React from 'react';
 
-import './product-list.style.css';
+import {ProductItem} from '../product-item/product-item.conponent';
+import './product-list.style.scss';
 
 export const ProductList = ()=>(
-    <div className="product-list"></div>
+    <div className="product-list">
+        <ProductItem></ProductItem>
+        <ProductItem></ProductItem>
+        <ProductItem></ProductItem>
+        <ProductItem></ProductItem>
+        <ProductItem></ProductItem>
+        <ProductItem></ProductItem>
+        <ProductItem></ProductItem>
+        <ProductItem></ProductItem>
+        <ProductItem></ProductItem>
+        <ProductItem></ProductItem>
+        <ProductItem></ProductItem>
+        <ProductItem></ProductItem>
+        <ProductItem></ProductItem>
+        <ProductItem></ProductItem>
+    </div>
 );
