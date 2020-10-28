@@ -6,12 +6,12 @@ export const ProductItem = ()=>(
     <div className="product-item">
         <div className="product-item-img"></div>
         <div className="product-item-content">
-            <h2 className="product-item__title">product 1</h2>
-            <span className="product-item__category">category 1</span>
-            <p className="product-item__paragraph">just for test</p>
-            <footer className="product-item__footer">
-                <div className="product-item__price">$1000</div>
-                <button className="product-item__price">BUY</button>
+            <span className="product-item-content__category">category1</span>
+            <h2 className="product-item-content__title">product 1</h2>
+            <p className="product-item-content__describe">just for test</p>
+            <footer className="product-item-content-footer">
+                <div className="product-item-content-footer__price">JPY$1000</div>
+                <button className="product-item-content-footer__btn">BUY</button>
             </footer>
         </div>
     </div>

@@ -1,3 +1,5 @@
+@import "../../variables.scss";
+
 .product-item {
   margin: 0.5rem;
   width: 31%;
@@ -10,14 +12,48 @@
     -moz-box-shadow: 2px 2px 19px 0px rgba(50, 50, 50, 0.78);
     box-shadow: 2px 2px 19px 0px rgba(50, 50, 50, 0.78);
   }
-  .product-item-img {
-    height: 200px;
+  &-img {
+    height: 180px;
     background-image: url("../../assets/sample.jpg");
     background-size: cover;
     background-position: 50% 50%;
   }
-  .product-item-content {
+  &-content {
     padding: 0.7rem;
     height: 70%;
+
+    &__category {
+      background-color: $secondary-color;
+      border-radius: 0.25rem;
+      font-size: 0.5rem;
+      color: $white-color;
+      padding: 0.1rem;
+    }
+
+    &__title {
+      margin: 0;
+      color: $main-color;
+    }
+
+    &__describe {
+      color: $gray-color;
+    }
+
+    &-footer {
+      &__price {
+        display: inline-block;
+        font-size: 1.25rem;
+        font-weight: bold;
+        color: $green-color;
+      }
+      &__btn {
+        font-size: 1rem;
+        color: $secondary-color;
+        background-color: $white-color;
+        border-radius: 300px;
+        border-color: $secondary-color;
+        cursor: pointer;
+      }
+    }
   }
 }
